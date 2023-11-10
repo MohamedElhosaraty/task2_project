@@ -20,7 +20,8 @@ class Onborading_Screen extends StatelessWidget {
 
   List<Boarding> boarding=
   [
-    Boarding(image:"assets/images2/Group 7.png" ,
+    Boarding(
+       image:"assets/images2/Group 7.png" ,
         title:"Let’s Find Your Sweet \n     & Dream Place",
         body: "Get the opportunity to stay that you dream \n             of at an affordable price",
          ),
@@ -109,7 +110,6 @@ class Onborading_Screen extends StatelessWidget {
               ),),
             ),
           ),
-
         ],
       ),
     );
